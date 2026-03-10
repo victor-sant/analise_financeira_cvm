@@ -30,21 +30,21 @@ Arquivos de demonstrações financeiras anuais das empresas brasileiras.
 
 ## Estrutura do Projeto
 
-projeto-analise-cvm
+analise-empresas-cvm
 │
 ├── data
-│ └── data_cvm.db
+│   ├── dfp_cia_aberta_DRE_2024.csv
+│   ├── dfp_cia_aberta_BPA_2024.csv
+│   ├── dfp_cia_aberta_BPP_2024.csv
+│   └── data_cvm.db
 │
 ├── notebooks
-│ ├── 01_pipeline_dados.ipynb
-│ ├── 02_calculo_indicadores.ipynb
-│ └── 03_visualizacoes.ipynb
-│
-├── images
-│ └── exemplo_grafico.png
+│   ├── EDA.ipynb
+│   ├── pipeline_ETL.ipynb
+│   ├── analise_financeira_SQL.ipynb
+│   └── visualizacoes.ipynb
 │
 └── README.md
-
 
 ---
 
