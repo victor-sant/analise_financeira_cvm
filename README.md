@@ -32,7 +32,7 @@ Arquivos de demonstrações financeiras anuais das empresas brasileiras.
 
 analise-empresas-cvm
 │
-├── data
+├── dados
 │   ├── dfp_cia_aberta_DRE_2024.csv
 │   ├── dfp_cia_aberta_BPA_2024.csv
 │   ├── dfp_cia_aberta_BPP_2024.csv
